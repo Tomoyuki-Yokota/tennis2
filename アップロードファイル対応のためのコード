@@ -1,0 +1,4 @@
+import io 
+with io.BytesIO() as output:
+    video_bytes.save(output,format='mp4')
+    binary_video_bytes=output.getvalue() #バイナリ取得
